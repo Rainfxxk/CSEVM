@@ -6,6 +6,7 @@ this is a exprimental project to display the mechnanism of computer for student 
 
 ### inst
 
+```
 --------------------------------------
 |                R-type              |
 --------------------------------------
@@ -25,9 +26,11 @@ this is a exprimental project to display the mechnanism of computer for student 
 --------------------------------------
 |******|00000000000000000000000000   |
 --------------------------------------
+```
 
 ### op
 
+```
 --------------------------------------------------------
 |name   |type |opcode  |operation                      |
 --------------------------------------------------------
@@ -59,9 +62,11 @@ this is a exprimental project to display the mechnanism of computer for student 
 --------------------------------------------------------
 |AUIPC  |I    |111110  |rd = pc + imm << 16            |
 --------------------------------------------------------
+```
 
 ### gpr
 
+```
 -----------------------------------------
 |NO |name   |descrpition                |
 -----------------------------------------
@@ -75,9 +80,11 @@ this is a exprimental project to display the mechnanism of computer for student 
 -----------------------------------------
 |8  |ra     |function return address    |
 -----------------------------------------
+```
 
 ### system call
 
+```
 ----------------
 |NO|description|
 ----------------
@@ -89,8 +96,11 @@ this is a exprimental project to display the mechnanism of computer for student 
 ----------------
 |3 |getchar    |
 ----------------
+```
 
 ### memory
+
+```
 -----------------
 | stack segment |
 -----------------
@@ -98,9 +108,11 @@ this is a exprimental project to display the mechnanism of computer for student 
 -----------------
 | data segment  |
 -----------------
+```
 
 ### stack frame
 
+```
 --------------------
 |    stack top     |<--sp
 --------------------
@@ -116,3 +128,4 @@ this is a exprimental project to display the mechnanism of computer for student 
 --------------------
 |temporary variable|<--frame bottome
 --------------------
+```
